@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios viejuners</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend><h2>El club viejuner</h2></legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad"><br><br>
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="sexo" name="Sexo">
+            <label for="sexo">Hombre</label>
+            <input type="radio" id="sexo" name="Sexo">
+            <label for="sexo">Mujer</label><br><br>
+
+            <label for="me_siento_viejuner">Me siento viejuner:</label>
+            <input type="checkbox" id="me_siento_viejuner" name="me_siento_viejuner"><br><br>
+
+            <label for="sobre_ti">Sobre ti:</label><br>
+            <textarea placeholder="Escribe aqui"></textarea><br><br>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email"><br><br>
+            <label for="tel">Teléfono:</label>
+            <input type="tel" id="tel">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend><h2>Los Ladronzuelos de bicicletas</h2></legend>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha"><br><br>
+            <label for="hora">Hora:</label>
+            <input type="datetime" id="hora"><br><br>
+            <label for="color">Color:</label>
+            <input type="color" id="color"><br><br>
+            <label for="precio">Precio:</label>
+            0<input type="range"  id="precio" name="precio" value="50">100<br><br>
+            <label for="bici">Tipo de bicicleta:</label>
+            <select name="bici">
+                <option selected="true" disabled="disabled">Seleccione la bici</option>
+                <optgroup label="Paseo">
+                    <option value="1">Señorial</option>
+                    <option value="2">Anti-plebeyos</option>
+                    <option value="2">PorEncimaDelHombro</option>
+                  </optgroup>
+                  <optgroup label="Montaña">
+                    <option value="3">Gamusinos</option>
+                    <option value="4">Hueleflores premium</option>
+                    <option value="5">Fango lover</option>
+                  </optgroup>
+                  <optgroup label="Carreras">
+                    <option value="3">Metroymedio</option>
+                    <option value="4">3 de la tarde. Fluorescente edition</option>
+                    <option value="5">Grupitors</option>
+                  </optgroup>
+            </select><br><br>
+            <label for="accesorios">Accesorios:</label><br><br>
+            <select name="accesorios" multiple>
+                <option value="ruedines">Ruedines</option>
+                <option value="pegatinas">Pegatinas                </option>
+                <option value="cestita">Cestita</option>
+                <option value="bomba_de_aire">Bomba de aire</option>
+                <option value="timbre">Timbre</option>
+                <option value="foco">Foco</option>
+            </select><br><br>
+            <label for="marca">Marca:</label>
+            <input list="marcas" id="marca">
+            <datalist id="marcas">
+                <option value="specialized"></option>
+                <option value="trek"></option>
+                <option value="merida"></option>
+                <option value="scott"></option>
+                <option value="giant"></option>
+                <option value="cube"></option>
+                <option value="lapierre"></option>
+                <option value="orbea"></option>
+                <option value="cannondale"></option>
+                <option value="bmc"></option>
+                <option value="canyon"></option>
+                <option value="look"></option>
+                <option value="protek"></option>
+                <option value="megamo"></option>
+                <option value="pinarello"></option>
+                <option value="bianchi"></option>
+                <option value="bh"></option>
+                <option value="factor"></option>
+                <option value="ghost"></option>
+                <option value="cervélo"></option>
+                <option value="argon"></option>
+            </datalist>
+        </fieldset>
+    </form>
+</body>
+</html>
